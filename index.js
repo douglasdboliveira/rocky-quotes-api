@@ -1,8 +1,13 @@
 const express = require('express');
-const quotes = require('./quotes');
+const quotes = require('./modules/quotes');
+const rocky = require('./modules/rocky');
 const app = express();
 
 const PORT = process.env.PORT || 3000;
+
+app.get("/", (req, res) => {
+    res.send(rocky);
+});
 
 app.get("/quotes", (req, res) => {
     res.send(quotes);
