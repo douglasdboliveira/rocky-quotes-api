@@ -7,4 +7,7 @@ Just a simple API made with Node.js and Express that returns some awesome Rocky 
 - "/quotes/random": Returns some random quote from those 35 ones;
 - "/quotes/5": Returns the 5th quote, for example.
 
-Eye of the tiger!
+This API is available at: https://rocky-quotes-api.herokuapp.com/
+<br />
+
+### Eye of the tiger!
