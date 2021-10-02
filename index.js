@@ -8,7 +8,7 @@ app.get("/quotes", (req, res) => {
     res.send(quotes);
 });
 
-app.get("/random", (req, res) => {
+app.get("/quotes/random", (req, res) => {
     res.send(quotes[Math.floor(Math.random() * 35)]);
 });
 
