@@ -3,7 +3,7 @@ const quotes = require('./quotes');
 const app = express();
 
 app.get("/quotes", (req, res) => {
-    res.json(quotes);
+    res.send(quotes);
 });
 
 app.get("/random", (req, res) => {
